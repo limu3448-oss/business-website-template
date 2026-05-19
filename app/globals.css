@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  --color-primary: #173b63;
+  --color-secondary: #c89b62;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: #111827;
+  background: #f7f5f0;
+  font-family: var(--font-sans);
+}
+section { scroll-margin-top: 88px; }
+::selection { background: color-mix(in srgb, var(--color-secondary) 32%, white); }
